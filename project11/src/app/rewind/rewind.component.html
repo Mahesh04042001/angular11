@@ -1,0 +1,21 @@
+<div>
+    <p>Hello guys! {{name}}</p>
+</div>
+<input type="text" [(ngModel)]="name">
+<button (click)="showOrHide()">Show/Hide</button>
+<app-parent [name]="name" *ngIf="value">
+    hello how are you? poovarasan
+    <div>
+        <p>Hello guys! {{name}}</p>
+    </div>
+</app-parent>
+<button><a (click)="calling()"> parent </a></button>
+<!-- <button><a (click)="nav()"> parent </a></button> -->
+
+{{name}}
+<a routerLink="parent" routerLinkActive="text-danger"> parent </a>
+<a routerLink="child" routerLinkActive="text-danger"> child </a>
+<p>a:{{a | currency:'PHP':'symbol'}}</p>
+<p>a:{{a | test}}</p>
+<!-- <input type="text" ngModel #ref>{{ref.value}} -->
+<input type="text" ngModel #hari>{{hari.value}}
