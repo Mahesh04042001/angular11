@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* .nav-pills {
+    border-bottom: 1px solid #ddd;
+    margin-top: 0px;
+}
+.nav-pills li a {
+    background: #1f4e79;
+    color: #fff;
+    line-height: 2em;
+    padding: 5px 10px;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+    margin: 20px 2px 0;
+    margin-left: 60px;
+    cursor: pointer;
+}
+ul li a {
+    text-decoration: none;
+}
+.nav-pills li a.active {
+    background: #3482ca;
+    border: none;
+    color: #FFF;
+}
+div{
+    background-color: white;
+}
+.nav-pills li a:hover{
+    padding: 5px;
+    border-radius: 10px;
+} */
+.nav-pills {
+    border-bottom: 1px solid #ddd;
+}
+.nav-pills li a {
+    color:black;
+    line-height: 2em;
+    padding: 5px 5px;
+    border-radius: 0;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    margin: 1px 5px 0;
+    cursor: pointer;
+}
+ul li a {
+    text-decoration: none;
+}
+.nav-pills li a.active {
+    background: #3482ca;
+    border: none;
+    color: #FFF;
+}
+div{
+    background-color: white;
+}
+.nav-pills li a:hover{
+    /* background: #1f4e79; */
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.row{
+    height: 40px;
+}
+h3{
+    color: red;
+  font-family: "sans-serif";
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}

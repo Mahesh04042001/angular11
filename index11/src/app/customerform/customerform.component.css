@@ -1,0 +1,9 @@
+h1{
+    text-transform: uppercase;
+    
+}
+.panel-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
